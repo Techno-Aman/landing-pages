@@ -11,7 +11,7 @@
 }
 
 .navbar {
-    
+
     display: flex;
     height: 67px;
 }
@@ -23,12 +23,12 @@
 
 .topleft {
     width: 50%;
-    height : 50vh;
+    height: 50vh;
 }
 
 .topright {
     width: 50%;
-    height : 50vh;
+    height: 50vh;
 }
 
 .section1 {
@@ -42,11 +42,23 @@
 .logo {
     font-size: 1.3rem;
 }
-
 .dumbelling {
-    width : 289px;
-}
+    width: 289px;
+} 
 
 .topright .gyming {
-    width : 666px
+    width: 666px
+} 
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.section2 {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+     background-color: lightgray; /* to help visualize */
+    min-height: 100px; 
+    display: block;
 }
